@@ -64,3 +64,42 @@
 ## 从源码构建
 
 ```bash
+git clone https://github.com/suicat01/create_irongrate.git cd create_irongrate
+./gradlew build
+
+构建产物位于 `build/libs/create_irongrate-1.0.0.jar`。
+
+> 需要 JDK 17。Windows 下请使用 `gradlew.bat`。
+
+## 许可证
+
+All Rights Reserved.
+
+## 作者
+
+**suicat01**
+
+---
+
+## English
+
+**Create: Iron Grate** adds the **Lava-Filled Iron Grate Copper Box** — a copper-cased iron grate with animated lava glowing through its mesh.
+
+It works as an **infinite lava fluid source**: all six faces expose an `IFluidHandler`, so Create pipes and pumps can drain it forever, while injection is rejected.
+
+**Crafting** (shaped, 3×3):
+
+| Copper Casing | Glass | Copper Casing |
+|:---:|:---:|:---:|
+| **Iron Grate** | **Lava Bucket** | **Iron Grate** |
+| Copper Casing | Glass | Copper Casing |
+
+- *Iron Grate* = `quark:grate` when Quark is installed, otherwise `minecraft:iron_bars`
+- *Glass* = any `#forge:glass`
+- The lava bucket is returned empty
+
+**Requirements:** Minecraft 1.20.1 · Forge 47.4.1 · Create 0.5.1+
+
+**Build:** `./gradlew build` → `build/libs/create_irongrate-1.0.0.jar`
+
+Licensed under All Rights Reserved. Author: **suicat01**.
