@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "create_irongrate:block/lava_iron_grate_copper_box" }
+  }
+}
